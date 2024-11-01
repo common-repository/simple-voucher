@@ -1,0 +1,325 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */ /**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.simple_voucher-page {
+  margin-left: -20px;
+  box-sizing: border-box;
+}
+
+.simple_voucher-page * {
+  box-sizing: border-box;
+}
+
+.simple_voucher-page__header {
+  background: #fff;
+  padding: 0;
+  z-index: 10;
+  margin-bottom: 4rem;
+}
+
+.simple_voucher-page__header-wrapper {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.simple_voucher-page__header-heading {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 40px;
+  flex: 1 auto;
+  height: 60px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.simple_voucher-page__layout {
+  padding: 0 2rem 2rem;
+}
+
+.simple_voucher-page__container {
+  margin: 0 auto;
+  max-width: 1030px;
+}
+
+.simple_voucher-page__card {
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid rgb(226, 228, 231);
+  overflow: hidden;
+  position: relative;
+}
+.simple_voucher-page__card__heading {
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(226, 228, 231);
+  padding: 1rem 1.5rem;
+}
+
+.simple_voucher-page__card__heading-title {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.simple_voucher-page__card__heading-subtitle {
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 4px;
+  color: #757575;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.simple_voucher-page__card__body {
+  padding: 1rem 1.5rem;
+}
+
+.simple_voucher-voucher-button {
+  width: 145px !important;
+  text-align: center;
+  text-indent: 0 !important;
+}
+
+.voucher-modal.show {
+  display: block;
+  background: rgba(1, 1, 1, 0.5);
+  z-index: 20000;
+}
+
+.simple_voucher__row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.simple_voucher__col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.simple_voucher__col-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+.simple_voucher__col-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.simple_voucher__col-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.simple_voucher__form-label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.simple_voucher__form-group {
+  margin-bottom: 1.5rem;
+}
+
+.simple_voucher_form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.simple_voucher_btn {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.simple_voucher_btn:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.simple_voucher_btn-primary {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.simple_voucher_btn-primary:not(:disabled):hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.simple_voucher_btn-secondary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.simple_voucher_btn-secondary:not(:disabled):hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.simple_voucher_modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+  background: rgba(1, 1, 1, 0.4);
+}
+
+.simple_voucher_modal.show {
+  display: block;
+}
+
+.simple_voucher_modal-dialog {
+  position: relative;
+  margin: 0.5rem;
+  pointer-events: none;
+  max-width: 550px;
+  margin: 1.75rem auto;
+  min-height: calc(100% - 1rem);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.simple_voucher_modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-bottom: 1px solid rgb(226, 228, 231);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.simple_voucher_modal-content-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.simple_voucher_modal-content-heading {
+  border-bottom: 1px solid rgb(226, 228, 231);
+  position: relative;
+  padding: 1rem;
+  /* -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center; */
+}
+.simple_voucher_modal-content-heading-title {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.simple_voucher_modal-content-footer {
+  border-top: 1px solid rgb(226, 228, 231);
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+  display: flex;
+}
+
+#simple_voucher_btn_message {
+  color: rgb(209, 66, 66);
+  display: none;
+}
+
+#simple_voucher_modal_loading {
+  border-radius: 0.3rem;
+  top: 0;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background: rgba(1, 1, 1, 0.5);
+  z-index: 99;
+  color: white;
+  font-size: 24px;
+}
+
+#simple_voucher_modal_loading.show {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#simple_voucher_modal_loading.hide {
+  display: none;
+}
